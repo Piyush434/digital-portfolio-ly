@@ -1,3 +1,32 @@
+/*
+This JavaScript code performs several functions on a webpage:
+
+1. **Isotope Grid**: It initializes a grid layout using Isotope library, allowing filtering of items.
+
+2. **Filtering Buttons**: It sets up buttons to filter items in the grid when clicked.
+
+3. **Testimonial Carousel**: It initializes a carousel for testimonials using Owl Carousel library.
+
+4. **Nice Select**: It applies a nice styling to select dropdowns.
+
+5. **Tooltip**: It enables tooltips on elements with `data-toggle="tooltip"` attribute.
+
+6. **Page Animation**: It initializes animations using the WOW.js library.
+
+7. **Back to Top Button**: It shows a button to scroll back to the top of the page when clicked.
+
+8. **Toggle Selected**: It provides a function to toggle a selected class on elements.
+
+9. **Sticky Navigation**: It makes the navigation bar stick to the top of the page when scrolled.
+
+10. **Color Switcher**: It allows switching between different color schemes.
+
+11. **Change Page**: It redirects to a different page when a select dropdown option is changed.
+
+12. **Smooth Scrolling**: It enables smooth scrolling to sections within the page.
+
+13. **Counter**: It animates numbers when they come into view using Waypoints and jQuery animateNumber plugin.
+*/
 $(function() {
   var $grid = $('.gridder').isotope({
     itemSelector: '.grid-item',

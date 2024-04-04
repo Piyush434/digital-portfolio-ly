@@ -29,6 +29,22 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+  <style>
+    .number-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 10px; /* Center the image and add some margin */
+}
+
+.number-image img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto;
+    display: block;
+}
+
+  </style>
 </head>
 <body class="theme-red">
   
@@ -57,6 +73,9 @@
             </li>
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#certificates" class="nav-link" data-animate="scrolling">Certificates</a>
             </li>
             <li class="nav-item">
               <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
@@ -377,6 +396,43 @@
       </div> <!-- End gridder -->
     </div>
   </div> <!-- End Portfolio page -->
+
+  <div class="text-center" id="certificates">
+    <div class="badge badge-subhead wow fadeInUp">Certificates</div>
+  </div>
+  <h1 class="text-center fw-normal wow fadeInUp">Here are some of my Certificates:</h1>
+
+  <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
+    <div class="container">
+        <div class="row section-counter">
+            <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+                <div class="number-image">
+                    <img src="../assets/img/logo/stanford.png" alt="LinkedIn Community">
+                </div>
+                <span>Machine Learning</span>
+            </div>
+            <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+                <div class="number-image">
+                    <img src="../assets/img/logo/azure-ai.png" alt="Companies Experiences">
+                </div>
+                <span>Azure AI Fundamentals</span>
+            </div>
+            <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+                <div class="number-image">
+                    <img src="../assets/img/logo/coding_ninjas.jpeg" alt="Projects worked on">
+                </div>
+                <span>Data Structures and Algorithms with C++</span>
+            </div>
+            <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+                <div class="number-image">
+                    <img src="../assets/img/logo/cisco.png" alt="DSA Questions Solved">
+                </div>
+                <span>Networking Essentials</span>
+            </div>
+        </div>
+    </div>
+</div>
+
   
   
   <!-- Blog -->
@@ -422,9 +478,6 @@
               <!-- <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span> -->
             </div>
           </div>
-        </div>
-        <div class="col-12 text-center py-3 wow fadeInUp">
-          <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
         </div>
       </div>
     </div>
